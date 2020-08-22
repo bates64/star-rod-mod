@@ -1,0 +1,7 @@
+# Original game data
+bgm/[0-9A-F][0-9A-F]_[0-9A-F][0-9A-F][0-9A-F].bgm
+bk/[0-9A-F][0-9A-F]_*.bk
+misc/8F_DAT1.sef
+misc/D9_SET1.per
+misc/DA_SET1.prg
+mseq/[0-9A-F][0-9A-F]_[0-9][0-9][0-9].mseq

@@ -1,0 +1,6 @@
+# Unignore general src ignore so we can be more specific
+!*/src
+
+# Original game data
+*/src/[0-9A-F][0-9A-F]
+player/src/shared

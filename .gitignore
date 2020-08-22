@@ -1,0 +1,14 @@
+# Build artifacts
+mod.cfg
+temp
+build
+cache
+/out
+
+# Editor files
+/logs
+/editor
+
+# Original game data
+src
+raw
