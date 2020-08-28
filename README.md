@@ -34,3 +34,13 @@ Git will now track changes to this file now and in the future.
 (Alternatively, I could have used `git add --force image/bg/kpa_bg.png`. This will work, but [it may cause issues](https://stackoverflow.com/a/42723384) in the future if the file is deleted, for whatever reason, but then recreated later. Git will have forgotten that it should be tracking the file!)
 
 This process applies to any assets in the `audio`, `image`, and `sprite` folders.
+
+### Extra patches
+
+This repository has other branches each implementing extra behaviours not found in a default Star Rod mod, such as those fixing bugs or implementing new game mechanics. You can view these [here](https://github.com/nanaian/star-rod-mod/pulls?q=is%3Apr+is%3Aopen+label%3Aextra). To merge a patch into your mod, run the following commands. Some patches might require extra setup.
+
+```
+$ git remote add upstream https://github.com/nanaian/star-rod-mod
+$ git fetch upstream
+$ git merge upstream/NAME_OF_PATCH
+```
