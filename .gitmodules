@@ -1,0 +1,3 @@
+[submodule "star-rod-c"]
+	path = star-rod-c
+	url = https://github.com/nanaian/star-rod-c.git
