@@ -1,0 +1,31 @@
+% RAM: 800E41F4 (collision_main_lateral)
+% Updates player position after applying input.
+% Changed to not write if on ice.
+@Hook 7D6A4 {
+	LWC1 F0, 20 (SP)
+	LWC1 F2, 28 (SP)
+
+	PUSH F0, F2
+		JAL $ice_physics_test
+		NOP
+	POP F0, F2
+	BNE V0, R0, .skip_update
+	NOP
+		% not on ice
+		J    800E4228 % set z
+		SWC1 F0, 28 (S1) % set x
+	.skip_update
+	J 800E422C
+	NOP
+}
+
+% RAM: 800E4300 (collision_main_lateral)
+% Hooks the JR RA.
+@Hook 7D7B0 {
+	ADDIU SP, SP, 80
+
+	PUSH RA
+		JAL $ice_physics_main
+		NOP
+	JPOP RA
+}
