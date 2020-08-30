@@ -1,10 +1,10 @@
 # Star Rod Mod template
 
-This is a template repository for making Paper Mario mods using [Star Rod](https://github.com/nanaian/star-rod).
+This is a base repository for making Paper Mario mods using [Star Rod](https://github.com/nanaian/star-rod).
 
 ### Getting started
 
-* [Generate a new repository using this template](https://github.com/nanaian/star-rod-mod/generate)
+* [Fork this repository](https://github.com/nanaian/star-rod-mod/fork)
 * Clone your new repository
 * Open the [Star Rod](https://github.com/nanaian/star-rod/releases/latest) Mod Manager
 * Set the _Mod Folder_ to the directory you cloned into
@@ -44,3 +44,5 @@ $ git remote add upstream https://github.com/nanaian/star-rod-mod
 $ git fetch upstream
 $ git merge upstream/NAME_OF_PATCH
 ```
+
+Extra patches will not merge ("refusing to merge unrelated histories") if you [generated](https://github.com/nanaian/star-rod-mod/generate), rather than forked, this repository. In this case, manually cherry-pick the commits you want.
