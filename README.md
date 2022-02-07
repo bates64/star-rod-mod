@@ -1,12 +1,12 @@
 # Star Rod Mod template
 
-This is a base repository for making Paper Mario mods using [Star Rod](https://github.com/nanaian/star-rod).
+This is a base repository for making Paper Mario mods using Star Rod ([download here](https://discord.gg/papermario)).
 
 ### Getting started
 
 * [Fork this repository](https://github.com/nanaian/star-rod-mod/fork)
 * Clone your new repository
-* Open the [Star Rod](https://github.com/nanaian/star-rod/releases/latest) Mod Manager
+* Open the Star Rod Mod Manager
 * Set the _Mod Folder_ to the directory you cloned into
 * _Copy Assets to Mod_
 * Create your mod as usual, e.g. make a change and compile the mod.
