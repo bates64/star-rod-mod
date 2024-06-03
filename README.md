@@ -1,10 +1,10 @@
-# Star Rod Mod template
+# Star Rod Classic Mod template
 
-This is a base repository for making Paper Mario mods using Star Rod ([download here](https://discord.gg/papermario)).
+This is a base repository for making Paper Mario mods using Star Rod Classic ([download](https://starhaven.dev/)).
 
 ### Getting started
 
-* [Fork this repository](https://github.com/nanaian/star-rod-mod/fork)
+* [Fork this repository](https://github.com/bates64/star-rod-mod/fork)
 * Clone your new repository
 * Open the Star Rod Mod Manager
 * Set the _Mod Folder_ to the directory you cloned into
@@ -37,10 +37,10 @@ This process applies to any assets in the `audio`, `image`, and `sprite` folders
 
 ### Extra patches
 
-This repository has other branches each implementing extra behaviours not found in a default Star Rod mod, such as those fixing bugs or implementing new game mechanics. You can view these [here](https://github.com/nanaian/star-rod-mod/pulls?q=is%3Apr+is%3Aopen+label%3Aextra). To merge a patch into your mod, run the following commands. Some patches might require extra setup.
+This repository has other branches each implementing extra behaviours not found in a default Star Rod mod, such as those fixing bugs or implementing new game mechanics. You can view these [here](https://github.com/bates64/star-rod-mod/pulls?q=is%3Apr+is%3Aopen+label%3Aextra). To merge a patch into your mod, run the following commands. Some patches might require extra setup.
 
 ```
-$ git remote add upstream https://github.com/nanaian/star-rod-mod
+$ git remote add upstream https://github.com/bates64/star-rod-mod
 $ git fetch upstream
 $ git merge upstream/NAME_OF_PATCH
 ```
